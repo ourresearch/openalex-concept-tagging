@@ -7,5 +7,5 @@ You can find an explanation of the modeling process at the following link:
 --INSERT LINK HERE---
 
 ### Model Iterations
-#### V1 (current)
-#### V2 (in progress)
+* V1 (current)
+* V2 (in progress)
