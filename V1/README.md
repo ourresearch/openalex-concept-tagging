@@ -24,4 +24,4 @@ In order to deploy the model/container in AWS or deploy the model/container loca
 aws s3 cp s3://openalex-concept-tagger-model-files/ . --recursive
 ```
 
-The files in this repository can be used to transform the input data correctly and load the model files. Both the V1 and V2 model files are kept at this location so make sure to use the V2 model if you want the latest (best) model.
+The files in this repository can be used to transform the input data correctly and load the model files. Both the V1 and V2 model files are kept at this location so make sure to use the V1 model if you want the model for this directory.
