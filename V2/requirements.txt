@@ -1,0 +1,8 @@
+numpy
+tensorflow==2.4.1
+pandas
+tensorflow-addons
+boto3
+s3fs
+fsspec
+pyarrow
