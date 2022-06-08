@@ -18,7 +18,7 @@ Use the notebooks in this directory if you would like to deploy the model locall
 ### NOTES
 #### Model Artifacts
 
-If you would like to download the model files that are used in concept tagging, you are able to copy the files from our S3 location using the AWS CLI (must have an AWS account to access):
+In order to deploy the model/container in AWS or deploy the model/container locally, you will need the model artifacts. These can be downloaded from our S3 bucket using the AWS CLI. Once the AWS CLI is installed and set up for your account (aws configure), run the following command:
 
 ```bash
 aws s3 cp s3://openalex-concept-tagger-model-files/ . --recursive
