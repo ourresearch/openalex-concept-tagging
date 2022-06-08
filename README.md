@@ -1,6 +1,6 @@
 # openalex-concept-tagging
 
-This repository contains all of the code for getting the concept tagger up and running. Go into the model iteration directory (V1,V2) to find a more detailed explanation of how to use this repository. To learn more about where this model is being used, feel free to visit: https://openalex.org/
+This repository contains all of the code for getting the concept tagger up and running. Go into the model iteration directory (V1 or V2) to find a more detailed explanation of how to use this repository. To learn more about where this model is being used, feel free to visit: https://openalex.org/
 
 ### Model Iterations
 * V1 (complete)
