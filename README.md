@@ -1,10 +1,10 @@
 # openalex-concept-tagging
 
-This repository contains all of the code for getting the concept tagger up and running. Go into the model iteration directory (V1 or V2) to find a more detailed explanation of how to use this repository. To learn more about where this model is being used, feel free to visit: https://openalex.org/
+This repository contains all of the code for getting the [OpenAlex](https://openalex.org) concept tagger up and running. Go into the model iteration directory (V1 or V2) to find a more detailed explanation of how to use this repository. To learn more about concepts in OpenAlex, check out [the docs](https://docs.openalex.org/about-the-data/concept). 
 
 ### Model Iterations
-* V1 (complete)
-* V2 (current)
+* V1 (no longer used)
+* V2 (currently used)
 
 Both a V1 and a V2 model were created but as of right now, the V2 model is being used in OpenAlex. Initially, abstract data was not available for the model so we went with a V1 model that only looked at paper titles and a few other features. Once paper abstract data became available, a V2 model was created and we saw a substantial increase in performance.
 
