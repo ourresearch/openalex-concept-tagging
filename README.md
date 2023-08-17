@@ -4,9 +4,10 @@ This repository contains all of the code for getting the [OpenAlex](https://open
 
 ### Model Iterations
 * V1 (no longer used)
-* V2 (currently used)
+* V2 (no longer used)
+* V3 (currently used)
 
-Both a V1 and a V2 model were created but as of right now, the V2 model is being used in OpenAlex. Initially, abstract data was not available for the model so we went with a V1 model that only looked at paper titles and a few other features. Once paper abstract data became available, a V2 model was created and we saw a substantial increase in performance.
+Both a V1 and a V2 model were created but as of right now, the V3 model is being used in OpenAlex. Initially, abstract data was not available for the model so we went with a V1 model that only looked at paper titles and a few other features. Once paper abstract data became available, a V2 model was created and we saw a substantial increase in performance. In order to meet the needs for some of our users, a V3 model was created which used the same base tagging model that was developed for V2 but added additional logic for assigning parent concepts so that all concepts would have a path to the top of our concept tree/graph. For more information, please read the information at the top of the V3 directory.
 
 ### Model Development
 You can find an explanation of the modeling and deployment process at the following link:
